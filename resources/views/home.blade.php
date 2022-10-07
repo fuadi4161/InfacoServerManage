@@ -641,19 +641,35 @@
 
   <script type="text/javascript">
 
+    // setInterval(function(){
+    //   $.get( "http://infacomt.net/load", function( data ) {
+    //     $( ".load" ).html(data);
+    //   })
+    // }, 3000);
+
+    // setInterval(function(){
+    //   $.get( "http://infacomt.net/uptime", function( data ) {
+    //     $( ".uptime" ).html(data);
+    //   })
+    // }, 2000);
+    // setInterval(function(){
+    //   $.get( "http://infacomt.net/freeMemory", function( data ) {
+    //     $( ".free_memory" ).html(data);
+    //   })
+    // }, 6000);
     setInterval(function(){
-      $.get( "http://17.17.11.85:8000/load", function( data ) {
+      $.get( "https://infacomediateknologi.net/load", function( data ) {
         $( ".load" ).html(data);
       })
     }, 3000);
 
     setInterval(function(){
-      $.get( "http://17.17.11.85:8000/uptime", function( data ) {
+      $.get( "https://infacomediateknologi.net/uptime", function( data ) {
         $( ".uptime" ).html(data);
       })
     }, 2000);
     setInterval(function(){
-      $.get( "http://17.17.11.85:8000/freeMemory", function( data ) {
+      $.get( "https://infacomediateknologi.net/freeMemory", function( data ) {
         $( ".free_memory" ).html(data);
       })
     }, 6000);
