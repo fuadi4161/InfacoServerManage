@@ -17,7 +17,7 @@ class ArpController extends Controller
     public function index()
     {
         $client = new Client([
-            'host' => 'api.infacomediateknologi.net',
+            'host' => '220.247.174.50',
             'user' => 'admin',
             'pass' => '7659872'
         ]);

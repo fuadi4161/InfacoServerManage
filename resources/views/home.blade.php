@@ -658,18 +658,18 @@
     //   })
     // }, 6000);
     setInterval(function(){
-      $.get( "https://infacomediateknologi.net/load", function( data ) {
+      $.get( "http://infacomediateknologi.net/load", function( data ) {
         $( ".load" ).html(data);
       })
     }, 3000);
 
     setInterval(function(){
-      $.get( "https://infacomediateknologi.net/uptime", function( data ) {
+      $.get( "http://infacomediateknologi.net/uptime", function( data ) {
         $( ".uptime" ).html(data);
       })
     }, 2000);
     setInterval(function(){
-      $.get( "https://infacomediateknologi.net/freeMemory", function( data ) {
+      $.get( "http://infacomediateknologi.net/freeMemory", function( data ) {
         $( ".free_memory" ).html(data);
       })
     }, 6000);
