@@ -11,7 +11,7 @@ class HomeController extends Controller
     public function index() {
         
         $client = new Client([
-            'host' => '220.247.174.50',
+            'host' => 'https://api.infacomediateknologi.net',
             'user' => 'admin',
             'pass' => '7659872'
         ]);
